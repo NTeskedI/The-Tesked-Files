@@ -1,0 +1,9 @@
+
+
+body {
+    width: 100vmax;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    background-color: 336020;
+}
