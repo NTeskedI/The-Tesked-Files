@@ -1,4 +1,4 @@
-const symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
+const symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 document.getElementById("load-text").onmouseover = event => {
     let iterations = 0
@@ -10,12 +10,12 @@ document.getElementById("load-text").onmouseover = event => {
             return event.target.dataset.value[index];
         }
         
-        return symbols[Math.floor(Math.random() * 35)]
+        return symbols[Math.floor(Math.random() * 26)]
    })
     .join("");
 
     if(iterations >= event.target.dataset.value.length) clearInterval(interval);
 
-    iterations += 1 / 6;
+    iterations += 1 / 3;
 }, 30);
 }
