@@ -1,4 +1,10 @@
 
+:root{
+    --color-bg: #FF99B9;
+    --color-main: #241F1F;
+    --color-secondary: #EFEFD0;
+}
+
 
 body {
     height: 100vh;
@@ -6,13 +12,12 @@ body {
     margin: 0;
     overflow: hidden;
     display: flex;
-    background-color: #121012;
+    background-color: var(--color-bg);
     justify-content: center;
 }
 
 .loader{
     margin-top: 2.42rem;
-    color: #EEEEEE;
     font-family: "motor-stencil", monospace;
     font-weight: 400;
     font-style: normal;
@@ -22,7 +27,7 @@ body {
 
 .loader a{
     text-decoration: none;
-    color: #eee;
+    color: var(--color-main);
     transition: all 100ms ease-in;
     padding: .4rem;
     border-radius: 4px;
@@ -43,6 +48,15 @@ body {
 }
 
 .loader a:hover{
-    background-color: #EEEEEE;
-    color: #121012;
+    background-color: var(--color-main);
+    color: var(--color-secondary);
+}
+
+.about{
+
+
+}
+
+#circle_svg_outer{
+    stroke: var(--color-main);
 }
