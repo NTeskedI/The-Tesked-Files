@@ -10,14 +10,7 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0;
-<<<<<<< Updated upstream
     overflow-x: hidden;
-=======
-    overflow: hidden;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
->>>>>>> Stashed changes
     background-color: var(--color-bg);
 }
 
@@ -62,12 +55,6 @@ body {
     color: var(--color-secondary);
 }
 
-.about{
-    position: relative;
-    margin-top: 5.6rem;
-}
-
-<<<<<<< Updated upstream
 
 #piki{
     margin-left: 3.32rem;
@@ -87,29 +74,50 @@ body {
 #elmoor_school{
     position: fixed;
     margin-left: 100rem;
+    margin-top: 5rem;
     height: 234px;
     rotate: -18deg;
-=======
-.about svg{
-    transition: all 500ms ease-in-out;
-    transform-origin: center;
-    fill: transparent;
-    stroke: var(--color-main);
 }
 
-.about svg:hover{
-    rotate: 180deg;
+
+.about{
+    position: relative;
+    margin-top: 5.6rem;
+}
+
+.about svg{ 
+    position:absolute;
+    float:left;
+    margin-top: 1.4rem;
+    fill: none;
+    stroke: var(--color-main);
+    scale:1.04;
+}
+
+#outer{
+    animation: rotate_cw 30s linear none infinite;
+    transform-origin: center;
+}
+
+#inner{
+    animation: rotate_cw 30s linear none infinite reverse;
+    transform-origin: center;
+    scale: 0.7;
 }
 
 .about p{
+    float:right;
     max-width: 500px;
-    margin-left: 10rem;
-    color:var(--color-main)
+    margin-left: 8rem;
+    color:var(--color-main);
 }
 
+@keyframes rotate_cw {
+    from{rotate:0deg;}
+    to{rotate:360deg;}
+}
 
-@keyframes spin {
-    from: {rotate:0deg}
-    to:{rotate:180deg}
->>>>>>> Stashed changes
+@keyframes rotate_cw_transform {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
