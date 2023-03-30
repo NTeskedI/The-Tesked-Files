@@ -10,7 +10,14 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0;
+<<<<<<< Updated upstream
     overflow-x: hidden;
+=======
+    overflow: hidden;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+>>>>>>> Stashed changes
     background-color: var(--color-bg);
 }
 
@@ -26,7 +33,6 @@ body {
     font-weight: 400;
     font-style: normal;
     letter-spacing: 5px;
-    margin-left: 1rem;
 }
 
 .navbar a{
@@ -57,10 +63,11 @@ body {
 }
 
 .about{
-
-
+    position: relative;
+    margin-top: 5.6rem;
 }
 
+<<<<<<< Updated upstream
 
 #piki{
     margin-left: 3.32rem;
@@ -82,4 +89,27 @@ body {
     margin-left: 100rem;
     height: 234px;
     rotate: -18deg;
+=======
+.about svg{
+    transition: all 500ms ease-in-out;
+    transform-origin: center;
+    fill: transparent;
+    stroke: var(--color-main);
+}
+
+.about svg:hover{
+    rotate: 180deg;
+}
+
+.about p{
+    max-width: 500px;
+    margin-left: 10rem;
+    color:var(--color-main)
+}
+
+
+@keyframes spin {
+    from: {rotate:0deg}
+    to:{rotate:180deg}
+>>>>>>> Stashed changes
 }
