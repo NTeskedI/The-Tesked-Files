@@ -117,7 +117,7 @@ body {
 }
 
 
-/**---- Projects sida ----**/
+/**---- Projects sida universal ----**/
 
 .card{
     background-color: var(--color-main);
@@ -127,31 +127,51 @@ body {
     margin-top: 2rem; 
     border: 5px solid var(--color-secondary);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .card_header{
     float: right;
-    color: var(--dnd-main);
     font-family: 'Cherry Swash', cursive;
     font-size: 40pt;
-    margin-right: 10.625rem;
+    margin-right: 11.625rem;
     margin-top: 3.03125rem;
+    margin-bottom: 0;
 }
 
 .card_text{
     float:right;
-    color: var(--dnd-main);
     font-size: 20pt;
-    max-width: 750px;
-    margin-right: 5.625rem;
+    max-width: 760px;
+    margin-right: 6.625rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0;
+    font-family: "chaparral-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.expand_lines{
+    margin-left: 59rem;
+    margin-right: 0.3rem;
+    float: right;
+    stroke: var(--color-secondary);
 }
 
 .svg_icon{
-    margin-left: 3.03125rem;
+    margin-left: 2.03125rem;
     margin-top: 3.03125rem;
     scale: 0.97;
 }
 
+/**---- Projects sida specifics ----**/
+
+.dnd_text{
+    color:var(--dnd-main);
+}
+#dnd_and{
+    color:var(--dnd-accent)
+}
 @keyframes rotate_cw {
     from{rotate:0deg;}
     to{rotate:360deg;}
