@@ -3,9 +3,13 @@
     --color-bg: #FF99B9;
     --color-main: #241F1F;
     --color-secondary: #EFEFD0;
+
+    /**dnd colorscheme**/
+    --dnd-main: #E6E6E6;
+    --dnd-accent: #CE0000;
 }
 
-
+/**---- Universal settings ----**/
 body {
     height: 100vh;
     width: 100vw;
@@ -55,7 +59,7 @@ body {
     color: var(--color-secondary);
 }
 
-
+/**---- Landing page settings ----**/
 #piki{
     margin-left: 3.32rem;
     margin-top: 8.7rem;
@@ -110,6 +114,42 @@ body {
     max-width: 500px;
     margin-left: 8rem;
     color:var(--color-main);
+}
+
+
+/**---- Projects sida ----**/
+
+.card{
+    background-color: var(--color-main);
+    height: 370px;
+    aspect-ratio: 10/3;
+    margin-left: 12rem;
+    margin-top: 2rem; 
+    border: 5px solid var(--color-secondary);
+    border-radius: 10px;
+}
+
+.card_header{
+    float: right;
+    color: var(--dnd-main);
+    font-family: 'Cherry Swash', cursive;
+    font-size: 40pt;
+    margin-right: 10.625rem;
+    margin-top: 3.03125rem;
+}
+
+.card_text{
+    float:right;
+    color: var(--dnd-main);
+    font-size: 20pt;
+    max-width: 750px;
+    margin-right: 5.625rem;
+}
+
+.svg_icon{
+    margin-left: 3.03125rem;
+    margin-top: 3.03125rem;
+    scale: 0.97;
 }
 
 @keyframes rotate_cw {
