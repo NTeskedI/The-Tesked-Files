@@ -130,32 +130,28 @@ body {
     cursor: pointer;
 }
 
+.expand_lines{
+    float: right;
+    margin-right: 0.3rem;
+    margin-top: 20.825rem;
+}
+
 .card_header{
     float: right;
-    font-family: 'Cherry Swash', cursive;
-    font-size: 40pt;
-    margin-right: 11.625rem;
-    margin-top: 3.03125rem;
+    margin-right: 9.625rem;
+    margin-top: 2.03125rem;
     margin-bottom: 0;
+    color:white;
 }
 
 .card_text{
     float:right;
     font-size: 20pt;
     max-width: 760px;
-    margin-right: 6.625rem;
+    margin-right: 4.625rem;
     margin-top: 0.9rem;
     margin-bottom: 0;
-    font-family: "chaparral-pro", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.expand_lines{
-    margin-left: 59rem;
-    margin-right: 0.3rem;
-    float: right;
-    stroke: var(--color-secondary);
+    color:white;
 }
 
 .svg_icon{
@@ -166,9 +162,19 @@ body {
 
 /**---- Projects sida specifics ----**/
 
+.dnd_header{
+    color:var(--dnd-main);
+    font-family: 'Cherry Swash', cursive;
+    font-size: 40pt;
+}
+
 .dnd_text{
     color:var(--dnd-main);
+    font-family: "chaparral-pro", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 #dnd_and{
     color:var(--dnd-accent)
 }
