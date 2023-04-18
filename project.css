@@ -40,7 +40,7 @@ body {
     border-radius: 4px;
 }
 
-.navbar #about {
+.navbar #contact {
     font-size: 20pt;
     margin-right: 1.2rem;
 }
@@ -178,6 +178,29 @@ body {
 #dnd_and{
     color:var(--dnd-accent)
 }
+
+
+
+/**---- Contact sida ----**/
+
+.contact_content{
+    display: flex;
+    flex-direction: column;
+    place-self: center;
+    margin-top: 5rem;
+    background-color: #241F1F;
+    width: 50vmax;
+}
+
+#contact_header{
+    margin-left: 5rem;
+}
+
+#divider_line{
+    margin-top: 0rem;
+    stroke: var(--color-main);
+}
+
 @keyframes rotate_cw {
     from{rotate:0deg;}
     to{rotate:360deg;}
