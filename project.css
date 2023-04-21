@@ -186,20 +186,55 @@ body {
 .contact_content{
     display: flex;
     flex-direction: column;
-    place-self: center;
     margin-top: 5rem;
-    background-color: #241F1F;
-    width: 50vmax;
+    justify-self: center;
 }
 
 #contact_header{
-    margin-left: 5rem;
+    margin-left: 18rem;
+    font-family: 'Monoton', cursive;
+    font-size: 50pt;
+    margin-bottom: 0;
 }
 
 #divider_line{
-    margin-top: 0rem;
-    stroke: var(--color-main);
+    transform: scaleX(0.71);
 }
+
+.contact_div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18rem;
+}
+
+.contact_svg{
+    margin-bottom: 1.5rem;
+}
+
+#email{
+    margin-left: calc(18rem);
+    margin-top: 1rem;
+}
+
+.contact_socials{
+    font-family: "jubilat-variable", sans-serif;
+    font-variation-settings: "wght" 360;
+    font-size: 35pt;
+    margin: 0;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+#github{
+    margin-left: 2rem;
+}
+#twitter{
+    margin-left: 1.5rem;
+}
+#instagram{
+    margin-left: 1.5rem;
+}
+
 
 @keyframes rotate_cw {
     from{rotate:0deg;}
