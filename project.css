@@ -155,7 +155,7 @@ a{
 
 .card_text{
     float:right;
-    font-size: 20pt;
+    font-size: 18pt;
     max-width: 760px;
     margin-right: 4.625rem;
     margin-top: 0.9rem;
@@ -188,6 +188,13 @@ a{
     color:var(--dnd-accent)
 }
 
+#download_pdf_icon{
+    float:right;
+    margin: 0;
+    margin-right: 4rem;
+    margin-top: -0.7rem;
+    scale: 1.05;
+}
 
 
 /**---- Contact sida ----**/
@@ -263,7 +270,7 @@ a{
 }
 #instagram-mark:hover{
     animation: colors 2000ms ease-in-out 1;
-    animation-iteration-count: infinite;
+    fill: #962fbf;
 }
 #instagram{
     margin-left: 1.5rem;
@@ -275,7 +282,6 @@ a{
     60%{fill: #d62976;}
     80%{fill: #962fbf;}
     100%{fill: #4f5bd5;}
-    
 }
 @keyframes rotate_cw {
     from{rotate:0deg;}
