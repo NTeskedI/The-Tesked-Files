@@ -214,7 +214,7 @@ a{
 }
 
 #divider_line{
-    transform: scaleX(0.71);
+    transform: scaleX(0.7);
 }
 
 .contact_div{
@@ -266,10 +266,12 @@ a{
 }
 
 #instagram-mark{
-    fill: var(--color-main)
+    fill: var(--color-main);
+    transition: all 200ms ease-out;
+    transition-delay: 200ms;
 }
 #instagram-mark:hover{
-    animation: colors 2000ms ease-in-out 1;
+    animation: colors 2000ms ease-in-out;
     fill: #962fbf;
 }
 #instagram{
@@ -280,8 +282,8 @@ a{
     20%{fill:#feda75;}
     40%{fill: #fa7e1e;}
     60%{fill: #d62976;}
-    80%{fill: #962fbf;}
-    100%{fill: #4f5bd5;}
+    80%{fill: #4f5bd5;}
+    100%{fill: #962fbf;}
 }
 @keyframes rotate_cw {
     from{rotate:0deg;}
