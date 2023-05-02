@@ -76,9 +76,12 @@ a{
     width: 200px;
 }
 #piki_text{
-    margin-left: 5rem;
+    margin-left: 4rem;
     margin-top: 25rem;
     position: fixed;
+    font-family: fagun, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .scroller_right{
@@ -96,6 +99,17 @@ a{
 .about{
     position: relative;
     margin-top: 5.6rem;
+    font-family: fagun, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}    
+
+.about p{
+    float:right;
+    max-width: 500px;
+    font-size: 15.5pt;
+    margin-left: 8rem;
+    color:var(--color-main);
 }
 
 .about svg{ 
@@ -105,26 +119,18 @@ a{
     fill: none;
     stroke: var(--color-main);
     scale:1.04;
-}
+}    
 
 #outer{
     animation: rotate_cw 30s linear none infinite;
     transform-origin: center;
-}
+}    
 
 #inner{
     animation: rotate_cw 30s linear none infinite reverse;
     transform-origin: center;
     scale: 0.7;
-}
-
-.about p{
-    float:right;
-    max-width: 500px;
-    margin-left: 8rem;
-    color:var(--color-main);
-}
-
+}    
 
 /**---- Projects sida universal ----**/
 
@@ -224,7 +230,7 @@ a{
 }
 
 .contact_svg{
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
 }
 
 #email{
@@ -233,12 +239,12 @@ a{
 }
 
 .contact_socials{
-    font-family: "jubilat-variable", sans-serif;
-    font-variation-settings: "wght" 360;
+    font-family: fagun, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 35pt;
     margin: 0;
-    margin-top: .5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
 }
 
 #twitter{
@@ -265,17 +271,18 @@ a{
     scale:1.01;
 }
 
+#instagram{
+    margin-left: 1.9rem;
+}
 #instagram-mark{
     fill: var(--color-main);
     transition: all 200ms ease-out;
     transition-delay: 200ms;
+    margin-top: 1.2rem;
 }
 #instagram-mark:hover{
     animation: colors 2000ms ease-in-out;
     fill: #962fbf;
-}
-#instagram{
-    margin-left: 1.5rem;
 }
 
 @keyframes colors {
