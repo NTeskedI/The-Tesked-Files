@@ -21,6 +21,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: var(--color-bg);
+    font-family: fagun, sans-serif;
 }
 
 .center_content{
@@ -96,26 +97,26 @@ a{
 }
 
 
-.about{
+.about1{
     position: relative;
     margin-top: 5.6rem;
-    font-family: fagun, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }    
 
-.about p{
+.about1 p{
     float:right;
-    max-width: 500px;
-    font-size: 15.5pt;
-    margin-left: 8rem;
+    font-size: 100pt;
+    margin: 0;
+    margin-left: 10rem;
     color:var(--color-main);
+    letter-spacing: 3px;
 }
 
-.about svg{ 
+.about1 svg{ 
     position:absolute;
     float:left;
-    margin-top: 1.4rem;
+    margin-top: 0.195rem;
     fill: none;
     stroke: var(--color-main);
     scale:1.04;
@@ -132,6 +133,24 @@ a{
     scale: 0.7;
 }    
 
+
+.about2{
+    margin-top: 3rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.about2 p{
+    float:left;
+    margin: 0;
+    width: 500px;
+    font-size: 14pt;
+}
+
+#about_dashes{
+    float:right;
+    scale:0.3;
+}
 /**---- Projects sida universal ----**/
 
 .card{
@@ -161,7 +180,7 @@ a{
 
 .card_text{
     float:right;
-    font-size: 18pt;
+    font-size: 16pt;
     max-width: 760px;
     margin-right: 4.625rem;
     margin-top: 0.9rem;
