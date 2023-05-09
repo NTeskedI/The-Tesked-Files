@@ -136,15 +136,16 @@ a{
 
 .about2{
     margin-top: 3rem;
+    width: 44.375rem;
     font-weight: 500;
     font-style: normal;
 }
 
 .about2 p{
-    float:left;
     margin: 0;
     width: 500px;
     font-size: 14pt;
+
 }
 
 #about_dashes{
@@ -192,6 +193,8 @@ a{
     margin-left: 2.03125rem;
     margin-top: 3.03125rem;
     scale: 0.97;
+    aspect-ratio: 1;
+    width: 263.84px;
 }
 
 /**---- Projects sida specifics ----**/
