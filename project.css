@@ -12,6 +12,8 @@
     /**dnd colorscheme**/
     --dnd-main: #E6E6E6;
     --dnd-accent: #CE0000;
+    --nti-main: #F8FEFF;
+    --nti-accent1: #8B5ED6;
 }
 
 /**---- Universal settings ----**/
@@ -66,7 +68,9 @@ body {
 }
 
 a{
-    margin:0    
+    margin:0;
+    text-decoration: none;
+    color:inherit
 }
 
 /**---- Landing page settings ----**/
@@ -210,12 +214,28 @@ a{
     font-family: "chaparral-pro", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 18pt;
+    line-height: 22pt;
 }
 
 #dnd_and{
     color:var(--dnd-accent)
 }
 
+.nti_header{
+    font-family: soleto, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35.6pt;
+    color:var(--nti-main)
+}
+
+.nti_text{
+    font-family: now, sans-serif;
+    font-size: 18pt;
+    line-height: 22.5pt;
+    word-spacing: -1pt;
+}
 #download_pdf_icon{
     float:right;
     margin: 0;
@@ -271,6 +291,7 @@ a{
 
 #twitter{
     margin-left: 1.5rem;
+    float:right
 }
 #twitter-mark{
     fill: var(--color-main);
@@ -282,6 +303,7 @@ a{
 
 #github{
     margin-left: 2rem;
+    float:right;
 }
 #github-mark{
     fill: var(--color-main);
@@ -290,11 +312,12 @@ a{
 }
 #github-mark:hover{
     rotate: 360deg;
-    scale:1.01;
+    scale:1.1;
 }
 
 #instagram{
     margin-left: 1.9rem;
+    float:right;
 }
 #instagram-mark{
     fill: var(--color-main);
